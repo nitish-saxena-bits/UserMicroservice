@@ -1,3 +1,7 @@
 .dockerignore
+.gitattributes
+.gitignore
 dockerfile
-node_modules
+node_modules/
+.git/
+README.md

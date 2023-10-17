@@ -8,7 +8,7 @@ COPY . .
 RUN yarn install --production 
 
 #command
-CMD ["node", "index.js"]
+CMD ["node", "./src/index.js"]
 
 #  port from container
 EXPOSE 8089
